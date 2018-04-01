@@ -1,20 +1,20 @@
 {
   "name": "grunt-includes-wildcard",
   "description": "Include other files within a file.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "vanetix <matmcfarland@gmail.com>",
   "contributors": [
     "Tom Hanoldt <tom@creative-workflow.berlin>"
   ],
   "license": "MIT",
   "main": "Gruntfile.js",
-  "homepage": "https://github.com/vanetix/grunt-includes",
+  "homepage": "https://github.com/creative-workflow/grunt-includes",
   "bugs": {
-    "url": "https://github.com/vanetix/grunt-includes/issues"
+    "url": "https://github.com/creative-workflow/grunt-includes/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vanetix/grunt-includes.git"
+    "url": "git://github.com/creative-workflow/grunt-includes.git"
   },
   "scripts": {
     "test": "grunt test"
