@@ -1,8 +1,11 @@
 {
-  "name": "grunt-includes",
+  "name": "grunt-includes-wildcard",
   "description": "Include other files within a file.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "vanetix <matmcfarland@gmail.com>",
+  "contributors": [
+    "Tom Hanoldt <tom@creative-workflow.berlin>"
+  ],
   "license": "MIT",
   "main": "Gruntfile.js",
   "homepage": "https://github.com/vanetix/grunt-includes",
@@ -17,6 +20,7 @@
     "test": "grunt test"
   },
   "devDependencies": {
+    "glob": "^7.1.2",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",

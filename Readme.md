@@ -3,6 +3,8 @@
 
 A grunt task for including a file within another file (think php includes). *Circular* imports will break the recursive strategy. *All includes retain parent and child indentation*
 
+Also supports wildcard file matches like 'foo/bar*.txt' (uses npm glob).
+
 ## Getting Started
 Install this grunt plugin next to your project's *Gruntfile.js* with: `npm install grunt-includes --save-dev`
 
