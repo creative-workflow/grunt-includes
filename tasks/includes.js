@@ -269,9 +269,7 @@ module.exports = function(grunt) {
           }
 
           content = '';
-          console.log('files', files)
           for(var fileIndex=0;fileIndex < files.length; fileIndex++){
-            console.log('fileLocation', files[fileIndex])
             fileContent = getFileContent(fileLocation, files[fileIndex], opts, level, included, indents, p, indent, newline);
             content = content + fileContent + newline + newline;
           }
